@@ -3,9 +3,6 @@
   <description>Simmple application to add candidates to the coarchperfect database.</description>
   <author href="http://phonegap.com" email="support@phonegap.com">Mark Murphy</author>
   <content src="index.html"/>
-  <allow-navigation href="http://*/*" />
-  <allow-navigation href="https://*/*" />
-  <allow-navigation href="data:*" />
   <access origin="*" />
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
@@ -73,6 +70,9 @@
   <allow-intent href="sms:*"/>
   <allow-intent href="mailto:*"/>
   <allow-intent href="geo:*"/>
+  <allow-navigation href="http://*/*" />
+  <allow-navigation href="https://*/*" />
+  <allow-navigation href="data:*" />
   <platform name="android">
     <allow-intent href="market:*"/>
   </platform>

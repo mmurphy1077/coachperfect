@@ -97,7 +97,8 @@ $(document).ready(function () {
             //dataType   : 'json',
             success: function(data){
                 $('#page1').css('display', 'none');
-               
+                $('#loading').css('display', 'none');
+                
                 // Clear form 
                 $('#page1 input#name_first').val('');
                 $('#page1 input#name_last').val('');
@@ -107,7 +108,6 @@ $(document).ready(function () {
                 $('#page1 select#flip-1').val('off');
                 
                 $('#page3').css('display', 'block');
-                
             },
             error: function(){
                 alert('There was an error adding your comment');

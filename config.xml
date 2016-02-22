@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.coachperfect" version="1.0.0">
   <name>coachperfect</name>
-  <description>Simmple application to add candidates to the coarchperfect database.</description>
+  <description>Simple application to add candidates to the coarchperfect database.</description>
   <author href="http://phonegap.com" email="support@phonegap.com">Mark Murphy</author>
   <content src="index.html"/>
   <access origin="*" />
@@ -37,7 +37,7 @@
   <gap:plugin name="org.apache.cordova.network-information"/>
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
-  <icon src="icon.png"/>
+  <icon src="www/icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
   <icon src="www/res/icon/android/icon-72-hdpi.png" gap:platform="android" gap:qualifier="hdpi"/>

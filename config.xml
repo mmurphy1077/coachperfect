@@ -1,6 +1,6 @@
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.coachperfect" version="1.0.1">
   <name>coachperfect</name>
-  <description>Simple application to add candidates to the coarchperfect database.</description>
+  <description>Application to add candidates to the coarchperfect database.</description>
   <author href="http://phonegap.com" email="support@phonegap.com">Mark Murphy</author>
   <content src="index.html"/>
   <access origin="*" />
